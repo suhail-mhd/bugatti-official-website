@@ -1,0 +1,57 @@
+.social {
+    margin-bottom: 150px;
+
+}
+.social h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.social-content {
+    position: relative;
+    overflow: hidden;
+    
+}
+.social-img::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    display: none;
+}
+.social-img img {
+    position: relative;
+    z-index: -1;
+}
+.social-text {
+    position: absolute;
+    top: 0;
+    color: #f4f4f4;
+    padding: 15px;
+    z-index: 10;
+}
+.social-text .flex {
+    justify-content: space-between;
+}
+.social-text .top-text p {
+    font-weight: 600;
+}
+.social-text .top-text i {
+    font-size: 25px;
+
+}
+.social-text .bottom-text {
+    transform: translateY(220px);
+   opacity: 0;
+}
+.social-content:hover .bottom-text{
+    opacity: 1;
+    display: block;
+}
+.social-content:hover .social-img::before {
+    display: block;
+}

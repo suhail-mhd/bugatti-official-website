@@ -1,0 +1,33 @@
+.models {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.models .grid {
+    grid-template-columns: 35% 65%;
+}
+.models h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.mod-img  {
+    position: relative;
+    width: 100%;
+}
+.model-img .left img {
+    width: 100%;
+    height: 395px;
+}
+.model-img .flex {
+    justify-content: space-between;
+}
+.model-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #f4f4f4;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    font-size: 14px;
+    transform: translateY(-5px);
+}

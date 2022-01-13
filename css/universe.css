@@ -1,0 +1,26 @@
+.universe {
+    margin-bottom: 150px;
+
+}
+.universe h2 {
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.universe-img {
+    position: relative;
+
+}
+.universe-text {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    color: #f4f4f4;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 7px;
+    font-size: 14px;
+    transform: translateY(-5px);
+}
+.universe-img .flex {
+    justify-content: space-between;
+}

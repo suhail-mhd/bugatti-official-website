@@ -1,0 +1,35 @@
+.hero {
+    position: relative;
+    width: 100%;
+    height: 550px;
+    background-image: url(../img/super-sport-hotspot05-dark.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    transform: translateY(50px);
+}
+.hero h1 {
+    font-size: 66px;
+    color: #f4f4f4;
+    font-weight: 500;
+    line-height: 66px;
+}
+.hero p {
+    color: #f4f4f4;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.hero .btn {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 20px;
+    border: 1px solid;
+}
+.hero .btn:hover {
+    background-color: #f4f4f4;
+    color: #000;
+    border: none;
+}
